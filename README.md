@@ -4,7 +4,7 @@ This is a fork of fork of [jwilder/nginx-proxy](https://github.com/jwilder/nginx
 
 See [rnbwd/spdy](https://github.com/rnbwd/spdy-proxy) for more documentation.
 
-This container has a special [nginx.conf](https://github.com/RnbWd/nginx/blob/master/nginx.conf) file, gzips / caches resources more aggressively, and it also expects the existence of a dhparam in the certs folder linked.
+This container has a special [nginx.conf](https://github.com/RnbWd/spdy-proxy/blob/nginx/nginx.conf) file, gzips / caches resources more aggressively, and it also expects the existence of a dhparam in the certs folder linked.
 
 To create a custom dhparam, run this command in the folder linked with the certs:
 
