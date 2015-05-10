@@ -1,8 +1,8 @@
 ![nginx 1.7.11](https://img.shields.io/badge/nginx-1.7.11-brightgreen.svg) ![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
-See [branch:nginx](https://github.com/RnbWd/spdy-proxy/tree/nginx) for the custom build. This repo is simply a fork of [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) with spdy enabled.
-
-spdy-proxy sets up a container running nginx and [docker-gen][1].  docker-gen generates reverse proxy configs for nginx and reloads nginx when containers are started and stopped.
+***
+Now that [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) supports spdy, there is virtually no difference between our libraries. For the time being using that insead of this because it more actively maintained.
+***
 
 See [Automated Nginx Reverse Proxy for Docker][2] for why you might want to use this.
 
